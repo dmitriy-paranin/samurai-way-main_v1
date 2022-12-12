@@ -4,8 +4,10 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="header">
-           <div>logo</div>
-            <div>teme-toggle</div>
+            <div className="header__wrapper">
+                <div className="header__logo">logo</div>
+                <div className="header__theme-toggle">theme-toggle</div>
+            </div>
         </div>
     );
 }

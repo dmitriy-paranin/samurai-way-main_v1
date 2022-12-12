@@ -1,4 +1,5 @@
 .nav {
-    grid-area: n;
-    background-color: lightcyan;
+    background-color: #525259;
+    height: 100%;
+    color: white;
 }

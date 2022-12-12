@@ -1,7 +1,14 @@
 .content {
-    grid-area: c;
     background-color: #525259;
+    padding: 10px;
+    line-height: 2;
 }
 .item {
     color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
