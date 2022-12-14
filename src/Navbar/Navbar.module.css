@@ -1,14 +1,16 @@
 .content {
-    background-color: #525259;
+    background-color: #ffffff;
     padding: 10px;
     line-height: 2;
+    width: 400px;
+    border: 1px solid #dedee1;
 }
 .item {
-    color: white;
+    color: #525259;
 }
 
 a {
-    color: white;
+    color: #525259;
     text-decoration: none;
     text-transform: uppercase;
 }

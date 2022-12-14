@@ -1,26 +1,26 @@
 import React from 'react';
-import './Profile.css';
+import s from './Navbar.module.css';
 
-const Profile = () => {
+const Navbar = () => {
     return (
-        <div className="content">
-            <div className="item">
+        <div className={s.content}>
+            <div className={s.item}>
                 <a href="">Profile</a>
             </div>
-            <div className="item">
+            <div className={s.item}>
                 <a href="">Messages</a>
             </div>
-            <div className="item">
+            <div className={s.item}>
                 <a href="">News</a>
             </div>
-            <div className="item">
+            <div className={s.item}>
                 <a href="">Music</a>
             </div>
-            <div className="item">
+            <div className={s.item}>
                 <a href="">Settings</a>
             </div>
         </div>
     );
 }
 
-export default Profile;
+export default Navbar;

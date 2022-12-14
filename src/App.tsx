@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./Navbar";
-import Profile from "./Profile";
-import Header from "./Header";
+import Navbar from "./Navbar/Navbar";
+import Header from "./Header/Header";
+import Profile from "./Profile/Profile";
 
 const App = () => {
     return (
-        <div className="app-wrapper">
+        <div className="app_wrapper">
             <Header/>
             <div className="body">
-                <div className="body__profile">
-                    <Profile/>
+                <div className="body__navbar">
+                    <Navbar/>
                 </div>
-                 <div className="body__navbar">
-                     <Navbar/>
+                 <div className="body__profile">
+                     <Profile/>
                  </div>
             </div>
         </div>
