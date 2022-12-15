@@ -19,10 +19,10 @@
   align-items: normal;
 }
 
-.body__navbar {
+.navbar_wrapper {
 
 }
 
-.body__profile{
+.content_wrapper{
   flex: 1 1 auto;
 }

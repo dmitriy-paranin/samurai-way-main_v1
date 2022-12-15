@@ -4,13 +4,13 @@
     line-height: 2;
     width: 400px;
     border: 1px solid #dedee1;
+    text-transform: uppercase;
 }
-.item {
-    color: #525259;
-}
-
-a {
+.item a {
     color: #525259;
     text-decoration: none;
-    text-transform: uppercase;
+}
+
+.item a.active {
+    color: #6CC4EFFF;
 }

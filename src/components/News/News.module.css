@@ -1,0 +1,8 @@
+.news_wrapper {
+    border: 2px solid blue;
+    background-color: #ffffff;
+    height: 100%;
+    color: #525259;
+    max-height: 600px;
+    width: 100%;
+}
