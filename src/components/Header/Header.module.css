@@ -1,12 +1,11 @@
-.header {
+.header_wrapper {
     height: 70px;
     background-color: #ffffff;
     margin-bottom: 50px;
     box-shadow: 0 0 5px 2px #babac5;
 }
 
-.header__wrapper {
-    /*container*/
+.header_body {
     max-width: 1920px;
     padding: 0 50px;
     height: 100%;

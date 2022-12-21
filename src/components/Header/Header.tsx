@@ -3,8 +3,8 @@ import s from './Header.module.css';
 
 const Header = () => {
     return (
-        <div className={s.header}>
-            <div className={s.header__wrapper}>
+        <div className={s.header_wrapper}>
+            <div className={s.header_body}>
                 <div className={s.logo}>
                     <a href="">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Planet_logo_New.png" alt="logo"/>

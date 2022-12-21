@@ -1,16 +1,12 @@
 import React from 'react';
 import s from './Profile.module.css';
 import MyPosts from "./My Posts/MyPosts";
+import Profileinfo from "./Profileinfo/Profileinfo";
 
 const Profile = () => {
     return (
         <div className={s.content}>
-            <div className={s.background}>
-                <img src="https://u-stena.ru/upload/iblock/679/67900513b84ad564dae641d667181436.jpg" alt=""/>
-            </div>
-            <div className={s.ava}>
-                ava + description
-            </div>
+            <Profileinfo/>
             <MyPosts/>
         </div>
     );

@@ -1,8 +1,17 @@
-.dialogs_wrapper {
-    border: 2px solid #0DA90DFF;
+.dialogs {
     background-color: #ffffff;
-    height: 100%;
     color: #525259;
-    max-height: 600px;
+    max-height: 800px;
+    height: 100%;
     width: 100%;
+    padding: 15px;
+    line-height: 2;
+    border: 1px solid #dedee1;
+
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs_items .active {
+    color: #6CC4EFFF;
 }

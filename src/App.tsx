@@ -13,12 +13,16 @@ const App = () => {
     return (
         <BrowserRouter>
             <div className="app_wrapper">
-                <Header/>
-                <div className="body">
-                    <div className="navbar_wrapper">
+
+                <div className="header">
+                    <Header/>
+                </div>
+
+                <div className="navbar_content_wrapper">
+                    <div className="navbar">
                         <Navbar/>
                     </div>
-                    <div className="content_wrapper">
+                    <div className="content">
                         <Route path='/profile' component={Profile}/>
                         <Route path='/dialogs' component={Dialogs}/>
                         <Route path='/news' component={News}/>
@@ -26,6 +30,8 @@ const App = () => {
                         <Route path='/settings' component={Settings}/>
                     </div>
                 </div>
+
+
             </div>
         </BrowserRouter>
 
