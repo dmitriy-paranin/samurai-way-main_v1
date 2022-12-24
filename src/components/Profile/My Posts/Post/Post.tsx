@@ -9,8 +9,12 @@ const Post = (props: MessageType) => {
     return (
         <div className={s.post_wrapper}>
             <div className={s.item}>
-                <img src="https://pbs.twimg.com/profile_images/899743208145657862/DSbQUuYE.jpg" alt="ava"/>
-                {props.message}
+                <div className={s.ava_message_text_wrapper}>
+                    <img src="https://pbs.twimg.com/profile_images/899743208145657862/DSbQUuYE.jpg" alt="ava"/>
+                    <div className={s.message_text}>
+                        {props.message}
+                    </div>
+                </div>
                 <div>
                     <span>
                         like

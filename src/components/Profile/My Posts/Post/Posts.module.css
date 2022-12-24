@@ -1,5 +1,10 @@
 .post_wrapper{
+    border: 1px solid #dedee1;
+    margin-bottom: 10px;
+}
 
+.ava_message_text_wrapper {
+    display: flex;
 }
 
 .item {
@@ -11,3 +16,11 @@
     height: 60px;
     border-radius: 30px;
 }
+
+.message_text {
+    margin-left: 30px;
+    padding: 20px;
+    border: 1px solid #dedee1;
+    border-radius: 15px;
+}
+
